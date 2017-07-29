@@ -1,0 +1,31 @@
+{
+  "name": "preact-cli-unassert",
+  "description": "Plugin for preact-cli to remove assertions in production",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": {
+    "name": "Marco Del Tongo",
+    "email": "info@marcodeltongo.com",
+    "url": "http://marcodeltongo.com"
+  },
+  "repository": "https://github.com/logicoder/preact-cli-unassert",
+  "bugs": "https://github.com/logicoder/preact-cli-unassert/issues",
+  "license": "MIT",
+  "keywords": ["preact", "preact-cli", "assert", "unassert", "plugin"],
+  "scripts": {
+    "publish": "publish-please",
+    "prepublishOnly": "npm run lint",
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "prettier-eslint-cli": "^4.1.1",
+    "prettier-package-json": "^1.3.2",
+    "publish-please": "^2.3.1"
+  },
+  "dependencies": {
+    "babel-plugin-unassert": "^2.1.2"
+  }
+}
