@@ -11,7 +11,7 @@ Plugin for [⚛️ preact-cli](https://github.com/developit/preact-cli) to remov
 Install it with npm:
 
 ```shell
-npm i preact-cli-unassert
+npm i -D preact-cli-unassert
 ```
 
 or with yarn:
