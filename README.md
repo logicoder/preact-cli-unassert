@@ -8,13 +8,13 @@ Plugin for [⚛️ preact-cli](https://github.com/developit/preact-cli) to remov
 
 ## Getting Started
 
-Install it via npm:
+Install it with npm:
 
 ```shell
 npm i preact-cli-unassert
 ```
 
-yarn:
+or with yarn:
 
 ```shell
 yarn add preact-cli-unassert --dev
@@ -24,7 +24,7 @@ This will also install:
 
 - [babel-plugin-unassert](https://npm.im/babel-plugin-unassert)
 
-And include in your project by creating a `preact.config.js`
+And include in your project by creating or adding to `preact.config.js`.
 
 ```javascript
 export default function customWebpackConfiguration(config, env, helpers) {
@@ -63,11 +63,11 @@ function add (a, b) {
 
 ## Related
 
-See also [preact-cli-unassert](https://npm.im/preact-cli-unassert).
+See also [preact-cli-power-assert](https://npm.im/preact-cli-power-assert).
 
 ## Thanks
 
-Many thanks to [Jason Miller](https://twitter.com/_developit) for creating [⚛️ Preact](https://preactjs.com/), and much of the related ecosystem.
+Many thanks to [Jason Miller](https://twitter.com/_developit) for creating [⚛️ Preact](https://preactjs.com/), much of the related ecosystem and lots of useful stuff.
 
 Heavily inspired by [preact-cli-lodash](https://github.com/SaraVieira/preact-cli-lodash) from [Sara Vieira](https://twitter.com/NikkitaFTW).
 
