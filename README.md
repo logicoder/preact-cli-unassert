@@ -1,6 +1,10 @@
 # preact-cli-unassert
 
-Plugin for `preact-cli` to remove assertions in production.
+Plugin for [⚛️ preact-cli](https://github.com/developit/preact-cli) to remove assertions in production.
+
+[![npm](https://img.shields.io/npm/v/preact-cli-unassert.svg?style=flat-square)](https://www.npmjs.com/package/preact-cli-unassert)
+[![David](https://img.shields.io/david/logicoder/preact-cli-unassert.svg?style=flat-square)](https://github.com/logicoder/preact-cli-unassert/blob/master/package.json)
+[![license](https://img.shields.io/github/license/logicoder/preact-cli-unassert.svg?style=flat-square)](https://github.com/logicoder/preact-cli-unassert/blob/master/LICENSE)
 
 ## Getting Started
 
@@ -18,16 +22,14 @@ yarn add preact-cli-unassert --dev
 
 This will also install:
 
-- [babel-plugin-unassert](https://www.npmjs.com/package/babel-plugin-unassert)
+- [babel-plugin-unassert](https://npm.im/babel-plugin-unassert)
 
 And include in your project by creating a `preact.config.js`
 
 ```javascript
-const preactCliUnassert = require('preact-cli-unassert');
-
 export default function customWebpackConfiguration(config, env, helpers) {
   // Along with other customizations and plugin...
-  preactCliUnassert(config, env);
+  require('preact-cli-unassert')(config, env);
 }
 ```
 
@@ -59,7 +61,13 @@ function add (a, b) {
 }
 ```
 
+## Related
+
+See also [preact-cli-unassert](https://npm.im/preact-cli-unassert).
+
 ## Thanks
+
+Many thanks to [Jason Miller](https://twitter.com/_developit) for creating [⚛️ Preact](https://preactjs.com/), and much of the related ecosystem.
 
 Heavily inspired by [preact-cli-lodash](https://github.com/SaraVieira/preact-cli-lodash) from [Sara Vieira](https://twitter.com/NikkitaFTW).
 
