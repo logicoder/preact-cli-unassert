@@ -1,7 +1,7 @@
 {
   "name": "preact-cli-unassert",
   "description": "Plugin for preact-cli to remove assertions in production",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "author": {
     "name": "Marco Del Tongo",
